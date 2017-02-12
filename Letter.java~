@@ -1,0 +1,23 @@
+public class Letter{
+  private char value;
+  private boolean isGuessed;
+  
+  public Letter (char value){
+    this.value = value;
+    this.isGuessed = false;
+  }
+  
+  public char getValue (){
+    return this.value;
+  }
+  
+  public boolean isGuessed (){
+    return this.isGuessed;
+  }
+  
+  public void reveal (){
+    this.isGuessed = true;
+  }
+}
+    
+                                    
